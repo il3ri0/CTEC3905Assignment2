@@ -9,9 +9,31 @@ footer{
 
 }
 
+.row-layout{
+ display: flex;
+ background-color: white;
+ align-items: center;
+ line-height: 1.65;
+ padding: 20px 50px;
+ flex-direction: column;
+}
+
+.firstrow-layout{
+flex: 1;
+
+}
+
+.secondrow-layout{
+flex: 1;
+
+}
+
+
+
+
 body {
   font-family: Alegreya Sans;
-    background-image: url("/Users/Ileri/Documents/Third Year/CTEC3905Assignment2/images/apple2.jpg");
+    background-image: url("/Users/Ileri/Documents/thirdyear/CTEC3905Assignment2/images/apple2.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -35,6 +57,7 @@ width: 100%;
   background-color: black;
   text-align: center;
   color: white;
+  flex: 1;
   }
 
 .contactintro{
@@ -62,17 +85,48 @@ p{
 
 }
 
-.name{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-text-align: center;
-font-family: monospace;
-color: white;
-font-size: 300%;
-}
+
+.animated {
+       background-repeat: no-repeat;
+       background-position: left top;
+       padding-top:95px;
+       margin-bottom:60px;
+       -webkit-animation-duration: 2s;
+       animation-duration: 2s;
+       -webkit-animation-fill-mode: both;
+       animation-fill-mode: both;
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color: black;
+     text-align: center;
+     font-family: monospace;
+     color: white;
+     font-size: 300%;
+    }
+
+    @-webkit-keyframes tada {
+       0% {-webkit-transform: scale(1);}
+       10%, 20% {-webkit-transform: scale(0.9) rotate(-3deg);}
+       30%, 50%, 70%, 90% {-webkit-transform: scale(1.1) rotate(3deg);}
+       40%, 60%, 80% {-webkit-transform: scale(1.1) rotate(-3deg);}
+       100% {-webkit-transform: scale(1) rotate(0);}
+    }
+
+    @keyframes tada {
+       0% {transform: scale(1);}
+       10%, 20% {transform: scale(0.9) rotate(-3deg);}
+       30%, 50%, 70%, 90% {transform: scale(1.1) rotate(3deg);}
+       40%, 60%, 80% {transform: scale(1.1) rotate(-3deg);}
+       100% {transform: scale(1) rotate(0);}
+    }
+
+    .tada {
+       -webkit-animation-name: tada;
+       animation-name: tada;
+    }
+
 
 h1,h2{
 text-align: center;
@@ -239,11 +293,16 @@ width: 50%;
   text-align: center;
 }
 
+
 .menu2{
   width:50%;
   margin: 0;
   list-style:none;
   background-color: white;
+  flex: 1;
+  margin: 0 auto;
+  text-align: center;
+
 }
 
 .menu2 nav {
@@ -252,18 +311,30 @@ text-align: center;
 
 }
 
+
 .menu2 li{
 text-align: center;
-display: inline;
+display: inline-block;
+
 }
 
-.menu2 ul{
+.menu2 ul li a{
   display: inline-block;
   text-align:center;
-  width:150px; /* fixed width */
+  width:150px;
   text-decoration:none;
   margin 0;
   padding 0;
+  text-align: center;
+  display: inline-block;
+  width: 8em;
+  height: 8em;
+  line-height: 8em;
+  margin: 35px;
+  background-color: #333;
+  border-radius: 50%;
+  font-family: monospace;
+
 }
 .menu2 a{
 
