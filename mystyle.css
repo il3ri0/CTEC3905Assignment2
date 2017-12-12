@@ -1,0 +1,363 @@
+footer{
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+
+
+}
+
+body {
+  font-family: Alegreya Sans;
+    background-image: url("/Users/Ileri/Documents/Third Year/CTEC3905Assignment2/images/apple2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.course{
+width: 100%;
+
+}
+
+
+.description{
+  text-align: center;
+  font-family: monospace;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+  color: white;
+  }
+
+.contactintro{
+  text-align: center;
+  font-family: monospace;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+  color: white;
+  }
+
+
+p{
+  text-align: center;
+  color: white;
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+  overflow: hidden;
+  font-family: monospace;
+
+
+}
+
+.name{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+text-align: center;
+font-family: monospace;
+color: white;
+font-size: 300%;
+}
+
+h1,h2{
+text-align: center;
+font-family: monospace;
+color: #white;
+}
+
+h3{
+text-align: center;
+font-family: monospace;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: black;
+text-align: center;
+font-family: monospace;
+color: white;
+width: 50%;
+}
+
+
+.menu {
+  position: relative;
+  background: white;
+  width: 3em;
+  height: 3em;
+  border-radius: 5em;
+  margin: auto;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  cursor: pointer;
+  border: 1em solid black;
+}
+.menu:after {
+  content: "";
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  width: 1em;
+  height: 0.2em;
+  border-top: 0.6em double black;
+  border-bottom: 0.2em solid black;
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+.menu li {
+  width: 5em;
+  height: 1.4em;
+  padding: 0.2em;
+  margin-top: 0.2em;
+  text-align: center;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  transition: all 1s;
+  background: black;
+  opacity: 0;
+  z-index: -1;
+}
+.menu:hover li {
+  opacity: 1;
+}
+/**
+ * Add a pseudo element to cover the space
+ * between the links. This is so the menu
+ * does not lose :hover focus and disappear
+ */
+.menu:hover ul::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  left: 50%;
+  top: -5.0em;
+  /**
+   * The pseudo-element is a semi-circle
+   * created with CSS. Top, bottom, and right
+   * borders are 6.5em (left being 0), and then
+   * a border-radius is added to the two corners
+   * on the right.
+   */
+  border-width: 6.5em;
+  border-radius: 0 7.5em 7.5em 0;
+  border-left: 0;
+  border-style: solid;
+  /**
+   * Have to have a border color for the border
+   * to be hoverable. I'm using a very light one
+   * so that it looks invisible.
+   */
+  border-color: rgba(0,0,0,0.01);
+  /**
+   * Put the psuedo-element behind the links
+   * (So they can be clicked on)
+   */
+  z-index: -1;
+  /**
+   * Make the cursor default so it looks like
+   * nothing is there
+   */
+  cursor: default;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+
+  /**
+   * This is to vertically center the text on the
+   * little tab-like things that the text is on.
+   */
+  line-height: 1.5em;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 125%;
+}
+.menu ul {
+  transform: rotate(180deg) translateY(-2em);
+  transition: 1s all;
+}
+.menu:hover ul {
+  transform: rotate(0deg) translateY(-1em);
+}
+.menu li:hover {
+  background: #333;
+  z-index: 10;
+}
+
+.menu li:nth-of-type(1) {
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -1.2em;
+  top: -4.2em;
+}
+.menu li:nth-of-type(2) {
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 2em;
+  top: -3em;
+}
+.menu li:nth-of-type(3) {
+  position: absolute;
+  left: 3.4em;
+  top: 0.3em;
+}
+.menu li:nth-of-type(4) {
+  transform: rotate(45deg);
+  position: absolute;
+  left: 2em;
+  top: 3.7em;
+}
+.menu li:nth-of-type(5) {
+  transform: rotate(90deg);
+  position: absolute;
+  left: -1.2em;
+  top: 5em;
+}
+.hint {
+  text-align: center;
+}
+
+.menu2{
+  width:50%;
+  margin: 0;
+  list-style:none;
+  background-color: white;
+}
+
+.menu2 nav {
+
+text-align: center;
+
+}
+
+.menu2 li{
+text-align: center;
+display: inline;
+}
+
+.menu2 ul{
+  display: inline-block;
+  text-align:center;
+  width:150px; /* fixed width */
+  text-decoration:none;
+  margin 0;
+  padding 0;
+}
+.menu2 a{
+
+text-align: center;
+
+}
+
+table{
+font-family: monospace;
+background-color: white;
+width: 50%;
+}
+
+td, th {
+    text-align: center;
+    padding: 8px;
+}
+
+.container {
+  width: 50%;
+  background-color: white;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: black;
+}
+
+.html {width: 90%; background-color: #808080;}
+.css {width: 80%; background-color: #808080;}
+.js {width: 65%; background-color: #808080;}
+.php {width: 60%; background-color: #808080;}
+
+.skillsnames {
+color: black;
+
+}
+
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+  label,.label2, .label3, .label4, .label5{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+    font-family: monospace;
+    }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: monospace;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: monospace;
+    margin: auto;
+    padding: 10;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
