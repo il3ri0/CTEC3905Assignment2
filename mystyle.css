@@ -1,11 +1,11 @@
 footer{
   list-style-type: none;
   margin: 10;
-  padding: 10;
+  padding: 20;
   overflow: hidden;
   background-color: #333;
   width: 100%;
-
+  border-radius: 25px;
 
 }
 
@@ -16,6 +16,10 @@ footer{
  line-height: 1.65;
  padding: 20px 50px;
  flex-direction: column;
+ background: rgba(0,0,0,0.7);
+ border-radius: 25px;
+ margin-bottom: 20px;
+
 }
 
 .firstrow-layout{
@@ -26,10 +30,9 @@ flex: 1;
 .secondrow-layout{
 flex: 1;
 
+
+
 }
-
-
-
 
 body {
   font-family: Alegreya Sans;
@@ -38,14 +41,12 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 .course{
 width: 100%;
 
 }
-
 
 .description{
   text-align: center;
@@ -72,7 +73,6 @@ width: 100%;
   color: white;
   }
 
-
 p{
   text-align: center;
   color: white;
@@ -81,10 +81,7 @@ p{
   padding: 10;
   overflow: hidden;
   font-family: monospace;
-
-
 }
-
 
 .animated {
        background-repeat: no-repeat;
@@ -131,7 +128,7 @@ p{
 h1,h2{
 text-align: center;
 font-family: monospace;
-color: #white;
+color: white;
 }
 
 h3{
@@ -302,8 +299,12 @@ width: 50%;
   flex: 1;
   margin: 0 auto;
   text-align: center;
+  opacity: 0.7;
+  border-radius: 25px;
 
 }
+
+
 
 .menu2 nav {
 
@@ -315,6 +316,8 @@ text-align: center;
 .menu2 li{
 text-align: center;
 display: inline-block;
+font-size: 120%;
+  color: white;
 
 }
 
@@ -334,11 +337,28 @@ display: inline-block;
   background-color: #333;
   border-radius: 50%;
   font-family: monospace;
+  color: white;
 
 }
+
+.menu2 a:hover{
+background-color: white;
+color: black;
+border-style:solid;
+
+}
+
 .menu2 a{
 
+
+  -webkit-transition:.5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+
 text-align: center;
+
+
 
 }
 
