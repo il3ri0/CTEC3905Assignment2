@@ -29,7 +29,7 @@ header{
   float: left;
   width: 500px;
   height: 85px;
-  background: url(images/blacklogo.png) no-repeat center;
+  background: url(images/smallerlogo.png) no-repeat center;
 }
 
 /**---Navigation--*/
@@ -162,6 +162,11 @@ background: #C3D7DF;
 /**-----Larger Screen------**/
 
 @media(min-width:700px){
+
+  #logo {
+    margin:15px 0 20px -25px;
+    background: url(images/blacklogo.png) no-repeat center;
+  }
 
 .wrapper{
     display: grid;
