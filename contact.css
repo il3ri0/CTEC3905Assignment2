@@ -87,10 +87,6 @@ color: #C3D7DF;
   padding:1em;
 }
 
-.brand{
- text-align:center;
-
-}
 
 .brand span{
   color:white;
@@ -98,7 +94,10 @@ color: #C3D7DF;
 
 .wrapper{
   display: grid;
+  grid-template-columns: 1fr 2fr;
 }
+
+
 
 .wrapper > *{
   padding:2em;
@@ -109,8 +108,8 @@ color: #C3D7DF;
   background:#BEB9AD;
 }
 
-.company-info h3, .company-info ul{
-  text-align:center;
+.company-info h3, .company-info ul, .brand {
+  text-align:left;
 }
 
 
@@ -142,7 +141,7 @@ color: #C3D7DF;
 
 
 .contact form button, .contact form input, .contact form textarea{
-  width:80%;
+  width:100%;
   padding:1em;
   border:1px solid #BEB9AD;
 }
@@ -216,45 +215,16 @@ text-align: center;
     padding: 1em;
   }
 
+
   .company-info h3, .company-info ul {
-    text-align:left;
+    text-align:center;
     margin:0 1rem 0;
   }
 
   .brand{
     text-align:center;
   }
-  #logo {
-
-    margin:15px 0 20px -25px;
-    background: url(images/smallerlogo.png) no-repeat center;
-  }
-
-  #menu-icon{
-    display: inline-block;
-  }
-
-  nav ul, nav:active ul {
-    display: none;
-    z-index: 1000;
-    position: absolute;
-    padding: 20px;
-    background: black;
-    right: 20px;
-    top: 60px;
-    border: 1px solid #FFF;
-    border-radius: 2px 0 2px 2px;
-    width: 50%;
-  }
-
-  nav:hover ul{
-    display:block;
-  }
-
-  nav li{
-    text-align: center;
-    width: 100%;
-    padding: 10px 0;
-  }
 
 }
+
+/* https://www.youtube.com/watch?v=Sb5qOa3R4hY 27:19 icons */
