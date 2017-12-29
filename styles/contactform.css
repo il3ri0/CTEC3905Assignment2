@@ -32,7 +32,7 @@ header{
   float: left;
   width: 350px;
   height: 85px;
-  background: url(images/blacklogo2.png) no-repeat center;
+  background: url(../images/blacklogo2.png) no-repeat center;
 }
 
 
@@ -46,7 +46,7 @@ nav{
 #menu-icon {
   width: 40px;
   height: 40px;
-  background: url(images/nav.png) no-repeat center;
+  background: url(../images/nav.png) no-repeat center;
 }
 a:hover#menu-icon{
 
@@ -223,10 +223,11 @@ text-align: center;
   .brand{
     text-align:center;
   }
+
   #logo {
 
     margin:15px 0 20px -25px;
-    background: url(images/smallerlogo2.png) no-repeat center;
+    background: url(../images/smallerlogo2.png) no-repeat center;
   }
 
   #menu-icon{

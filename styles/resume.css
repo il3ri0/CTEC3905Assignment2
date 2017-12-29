@@ -34,7 +34,7 @@ header{
   float: left;
   width: 350px;
   height: 80px;
-  background: url(images/blacklogo2.png) no-repeat center;
+  background: url(../images/blacklogo2.png) no-repeat center;
 }
 
 
@@ -49,7 +49,7 @@ nav{
   display:hidden;
   width: 40px;
   height: 40px;
-  background: url(images/nav.png) no-repeat center;
+  background: url(../images/nav.png) no-repeat center;
 }
 a:hover#menu-icon{
 
@@ -536,7 +536,7 @@ text-align: center;
 @media screen and (max-width: 768px) {
 	#logo {
 	  margin:15px 0 20px -25px;
-	  background: url(images/smallerlogo2.png) no-repeat center;
+	  background: url(../images/smallerlogo2.png) no-repeat center;
 	}
 
 	#menu-icon{
