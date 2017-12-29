@@ -72,7 +72,6 @@ nav{
 }
 
 .menu-icon {
-  display:hidden;
   width: 40px;
   height: 40px;
   background: url(../images/nav.png) no-repeat center;
@@ -269,9 +268,7 @@ text-align: center;
        background-position: left top;
        padding-top:95px;
        margin-bottom:60px;
-       -webkit-animation-duration: 2s;
        animation-duration: 2s;
-       -webkit-animation-fill-mode: both;
        animation-fill-mode: both;
        list-style-type: none;
        margin: 0;
@@ -284,13 +281,6 @@ text-align: center;
      font-size: 300%;
     }
 
-    @-webkit-keyframes tada {
-       0% {-webkit-transform: scale(1);}
-       10%, 20% {-webkit-transform: scale(0.9) rotate(-3deg);}
-       30%, 50%, 70%, 90% {-webkit-transform: scale(1.1) rotate(3deg);}
-       40%, 60%, 80% {-webkit-transform: scale(1.1) rotate(-3deg);}
-       100% {-webkit-transform: scale(1) rotate(0);}
-    }
 
     @keyframes tada {
        0% {transform: scale(1);}
@@ -301,7 +291,6 @@ text-align: center;
     }
 
     .tada {
-       -webkit-animation-name: tada;
        animation-name: tada;
     }
 
