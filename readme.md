@@ -34,9 +34,14 @@ This website has been made for myself in order to show information about myself 
 
 This is included in the resume.js file. The function is used to display the covering letter in place of the resume on the same page. This is done by a function being called when clicked on which checks to see if the page is open which would return true if the page was already open as the function inside the bracket would be equal to each other so the function will terminate. If the function is not equal to each other then the function will return false and the next function will carrying out which makes the covering letter page active. The page has also been set to fade and out.
 
-## SVG
+## Animation
 
-I used and adapted the animation used for the home page logo from [Tutorialspoint.com](https://www.tutorialspoint.com/css/css_animation_tada.htm)
+I used and adapted the animation used for the home page logo from [Tutorialspoint.com](https://www.tutorialspoint.com/css/css_animation_tada.htm).
+
+I implement icons into my contact page from this [website](https://www.bootstrapcdn.com/fontawesome/).
+No bootstrap is involved, that is just the name of the site, the site is recommended for bootstrap users can can be used for other types. 
+
+I implemented the Bounce in effect to my contact page from this [animated.css](https://cdnjs.com/libraries/animate.css/) library.
 
 ## Quality and Performance
 
