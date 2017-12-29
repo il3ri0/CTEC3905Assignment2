@@ -2,6 +2,8 @@
 
 This website has been made for myself in order to show information about myself as well as projects to attract the attention of potential work for myself. For this site I used HTML5, CSS3 and JavaScript to create it.
 
+During the creation of my website I accidentally deleted the .git folder within my CTEC3905Assignment2 folder which resulted in me losing a days worth of commits in the process, my work remained so I just had to commit and push it all at once as is too close to the deadline to risk making the same specific commits. 
+
 ## Designs
 
 ### Home page
@@ -58,6 +60,8 @@ I used the site [Dareboost](https://www.dareboost.com/en/home)  in order to test
 In order to test the website I sent it round 16 each had different computer skill levels, the users ages varied from 16-70+. All of the gave me useful feedback. They all found that the website was easy to navigate round due to the navigation bar at the top. Some mentioned that on the fact that it was good that text was provided to state what pictures were as there one some which a fewer were unfamiliar with like the server for example. This was done by using alt tags. One of my elder users commented on the fact that the writing as a little bit small this resulted in me increasing the written to make sure it was readable by everyone.
 
 ## Issues
+
+
 
 I had one issue regarding the resizing of the page everything had fallen into its correct place which it was set to besides the icon in the menu bar, it fell beneath the menu. After a long review of the code I was able to find the solution to that problem which was to reduce the width size of the logo to make space for the icon menu to sit in place. So instead of viewing it as a problem it is now how the website should be.
 
