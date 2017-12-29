@@ -1,6 +1,6 @@
 # Front End Web Development Practical Coursework
 
-This website has been made for myself in order to show information about myself as well as projects to attract the attention of potential work for myself. For this site I used HTML5, CSS3.
+This website has been made for myself in order to show information about myself as well as projects to attract the attention of potential work for myself. For this site I used HTML5, CSS3 and JavaScript to create it.
 
 ## Designs
 
@@ -33,6 +33,10 @@ This website has been made for myself in order to show information about myself 
 ### Switching Pages
 
 This is included in the resume.js file. The function is used to display the covering letter in place of the resume on the same page. This is done by a function being called when clicked on which checks to see if the page is open which would return true if the page was already open as the function inside the bracket would be equal to each other so the function will terminate. If the function is not equal to each other then the function will return false and the next function will carrying out which makes the covering letter page active. The page has also been set to fade and out.
+
+## SVG
+
+I used and adapted the animation used for the home page logo from [Tutorialspoint.com](https://www.tutorialspoint.com/css/css_animation_tada.htm)
 
 ## Quality and Performance
 

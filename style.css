@@ -264,6 +264,47 @@ padding: 5px 0 9px 0;
 text-align: center;
 }
 
+.animated {
+       background-repeat: no-repeat;
+       background-position: left top;
+       padding-top:95px;
+       margin-bottom:60px;
+       -webkit-animation-duration: 2s;
+       animation-duration: 2s;
+       -webkit-animation-fill-mode: both;
+       animation-fill-mode: both;
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color: black;
+     text-align: center;
+     font-family: monospace;
+     color: white;
+     font-size: 300%;
+    }
+
+    @-webkit-keyframes tada {
+       0% {-webkit-transform: scale(1);}
+       10%, 20% {-webkit-transform: scale(0.9) rotate(-3deg);}
+       30%, 50%, 70%, 90% {-webkit-transform: scale(1.1) rotate(3deg);}
+       40%, 60%, 80% {-webkit-transform: scale(1.1) rotate(-3deg);}
+       100% {-webkit-transform: scale(1) rotate(0);}
+    }
+
+    @keyframes tada {
+       0% {transform: scale(1);}
+       10%, 20% {transform: scale(0.9) rotate(-3deg);}
+       30%, 50%, 70%, 90% {transform: scale(1.1) rotate(3deg);}
+       40%, 60%, 80% {transform: scale(1.1) rotate(-3deg);}
+       100% {transform: scale(1) rotate(0);}
+    }
+
+    .tada {
+       -webkit-animation-name: tada;
+       animation-name: tada;
+    }
+
 /*-------------------------MEDIA-------*/
 @media screen and (max-width:768px){
 h2{
