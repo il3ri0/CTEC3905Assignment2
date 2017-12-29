@@ -47,6 +47,8 @@ I implemented the Bounce in effect to my contact page from this [animated.css](h
 
 The API https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js is used in order for the javascript to run on the resume.html page.
 
+Also used a google API to implement a map to show the area of my general location.
+
 ## Quality and Performance
 
 I used the site [Dareboost](https://www.dareboost.com/en/home)  in order to test the speed of the site and check its quality.  Any issues involving quality or loading time are detected.
