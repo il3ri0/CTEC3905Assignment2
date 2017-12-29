@@ -1,5 +1,5 @@
 $(function () {
-		$('#cv').show();  
+		$('#cv').show();
 
 		$('#items li').click(function () {
 			if ($(this).attr('class') == 'active') {
