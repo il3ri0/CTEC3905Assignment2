@@ -18,17 +18,17 @@ This website has been made for myself in order to show information about myself 
 
 ## Designs
 
-![picture alt](images/design1.png"Home page")
+![alt attribute](images/design1.png"Home page")
 
-![picture alt](images/design2.png"Resume page")
+![alt attribute](images/design2.png"Resume page")
 
-![picture alt](images/design3.png"Project page")
+![alt attribute](images/design3.png"Project page")
 
-![picture alt](images/design4.png"Contact page")
+![alt attribute](images/design4.png"Contact page")
 
-![picture alt](images/mobiledesign.png"mobile designs")
+![alt attribute](images/mobiledesign.png"mobile designs")
 
-![picture alt](images/mobiledesign1.png"mobile designs 2")
+![alt attribute](images/mobiledesign1.png"mobile designs 2")
 
 ## Development
 
@@ -53,8 +53,11 @@ I had one issue regarding the resizing of the page everything had fallen into it
 These are what I used during the development of this website.
 
 [Atom](https://atom.io/) - Text editor
+
 [Github](https://github.com/) - Version Control
+
 [Chrome](https://www.google.com/chrome/browser/desktop/index.html) - Web Browser
+
 
 
 ## Versioning
@@ -64,12 +67,15 @@ I used Git for version control.
 ## Validation
 
 ### HTML Validator
-HTML5 Validator
 
+[HTML5 Validator](https://atom.io/)
 ### CSS Validator
-
+[CSS Validator](https://atom.io/)
 ### Javascript Validator
+[Javascript Validator](https://atom.io/)
 
-Author
+##Author
 
-My Github is [ilerionawoga01](https://github.com/ilerionawoga01/CTEC3905Assignment2) Ileri Onawoga
+Ileri Onawoga
+
+My Github is [ilerionawoga01](https://github.com/ilerionawoga01/CTEC3905Assignment2)
