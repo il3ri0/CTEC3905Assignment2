@@ -4,15 +4,27 @@ This website has been made for myself in order to show information about myself 
 
 ## Designs
 
+###Home page
+
 ![alt attribute](images/design1.png)
+
+###Resume page
 
 ![alt attribute](images/design2.png)
 
+###Project page
+
 ![alt attribute](images/design3.png)
+
+###Contact page
 
 ![alt attribute](images/design4.png)
 
+###Mobile designs
+
 ![alt attribute](images/mobiledesign.png)
+
+###Mobile designs 2
 
 ![alt attribute](images/mobiledesign1.png)
 
