@@ -39,9 +39,13 @@ This is included in the resume.js file. The function is used to display the cove
 I used and adapted the animation used for the home page logo from [Tutorialspoint.com](https://www.tutorialspoint.com/css/css_animation_tada.htm).
 
 I implement icons into my contact page from this [website](https://www.bootstrapcdn.com/fontawesome/).
-No bootstrap is involved, that is just the name of the site, the site is recommended for bootstrap users can can be used for other types. 
+No bootstrap is involved, that is just the name of the site, the site is recommended for bootstrap users can can be used for other types.
 
 I implemented the Bounce in effect to my contact page from this [animated.css](https://cdnjs.com/libraries/animate.css/) library.
+
+## API
+
+The API https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js is used in order for the javascript to run on the resume.html page.
 
 ## Quality and Performance
 
