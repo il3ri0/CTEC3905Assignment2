@@ -48,14 +48,14 @@ header{
   height: 120px;
 }
 
-#header-inner{
+.header-inner{
   max-width: 1200px;
   margin: 0 auto;
   background-color: black;
   width: 100%;
 }
 
-#logo{
+.logo{
   margin:20px;
   float: left;
   width: 350px;
@@ -71,13 +71,13 @@ nav{
   background-color: black;
 }
 
-#menu-icon {
+.menu-icon {
   display:hidden;
   width: 40px;
   height: 40px;
   background: url(../images/nav.png) no-repeat center;
 }
-a:hover#menu-icon{
+a:hover menu-icon{
 
   border-radius: 4px 4px 0 0;
 }
@@ -126,17 +126,17 @@ float: left;
 text-align: center;
 }
 
-#seo{
+.seo{
 background-color: #333;
 
 }
 
-#html{
+.html{
 background-color: #333;
 
 }
 
-#css{
+.css{
 background-color: #333;
 
 }
@@ -162,7 +162,7 @@ height: auto;
 }
 
 
-#desktop{
+.desktop{
 background-color: #333;
 
 }
@@ -175,19 +175,19 @@ aside{
  height: auto;
 }
 
-#desktop2{
+.desktop2{
   background-color: white;
 }
 
-#mobile{
+.mobile{
   background-color:black;
 }
 
-#tablet{
+.tablet{
 background-color: white;
 }
 
-#tablet2{
+.tablet2{
   background-color: white;
 }
 
@@ -210,15 +210,15 @@ background-color: white;
   text-align: center;
 }
 
-#info1{
+.info1{
 background-color: #A2B1C1;
 }
 
-#info2{
+.info2{
 background-color: #BEB9AD;
 }
 
-#info3{
+.info3{
   background-color: #AADCD2;
 }
 
@@ -322,13 +322,13 @@ header{
 position: absolute;
 }
 
-#logo {
+.logo {
 
   margin:15px 0 20px -25px;
   background: url(../images/smallerlogo2.png) no-repeat center;
 }
 
-#menu-icon{
+menu-icon{
   display: inline-block;
 }
 
