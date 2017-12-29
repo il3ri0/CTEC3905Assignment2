@@ -2,20 +2,6 @@
 
 This website has been made for myself in order to show information about myself as well as projects to attract the attention of potential work for myself. For this site I used HTML5, CSS3.
 
-## Checklist
- Introduction
- Designs
- Switching page Javascript
- SVG
- API
- Accessibility
- Issues
- Built With
- Versioning
- HTML Validator
- CSS Validator
- Javascript Validator
-
 ## Designs
 
 ![alt attribute](images/design1.png"Home page")
