@@ -20,14 +20,14 @@ header{
   height: 120px;
 }
 
-#header-inner{
+.header-inner{
   max-width: 1200px;
   margin: 0 auto;
   background-color: black;
   width: 100%;
 }
 
-#logo{
+.logo{
   margin:20px;
   float: left;
   width: 350px;
@@ -43,12 +43,12 @@ nav{
   background-color: black;
 }
 
-#menu-icon {
+.menu-icon {
   width: 40px;
   height: 40px;
   background: url(../images/nav.png) no-repeat center;
 }
-a:hover#menu-icon{
+a:hover menu-icon{
 
   border-radius: 4px 4px 0 0;
 }
@@ -159,8 +159,32 @@ color: #C3D7DF;
   outline:0;
   transition: background-color 1s ease-out;
 }
-#email-text-size{
+.email-text-size{
   font-size:0.9em;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+
+.mapcontainer{
+  width: 100%;
+  margin: 0 auto;
+  margin-top:50px;
+}
+
+#map_container{
+  position: relative;
+}
+#map{
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 22.25%;
+    padding-top: 30px;
+    position: relative;
+    margin: 0 auto;
 }
 
 footer{
@@ -187,30 +211,6 @@ color: #C3D7DF;
 
 .social i:hover {
   color: #F5F5F5;
-}
-
-#map {
-  width: 100%;
-  height: 400px;
-  background-color: grey;
-}
-
-.mapcontainer{
-  width: 100%;
-  margin: 0 auto;
-  margin-top:50px;
-}
-
-#map_container{
-  position: relative;
-}
-#map{
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 22.25%;
-    padding-top: 30px;
-    position: relative;
-    margin: 0 auto;
 }
 
 footer.footer2{
@@ -248,13 +248,13 @@ text-align: center;
     text-align:center;
   }
 
-  #logo {
+  .logo {
 
     margin:15px 0 20px -25px;
     background: url(../images/smallerlogo2.png) no-repeat center;
   }
 
-  #menu-icon{
+  .menu-icon{
     display: inline-block;
   }
 
@@ -281,4 +281,5 @@ text-align: center;
     padding: 10px 0;
   }
 
-}
+
+  }
