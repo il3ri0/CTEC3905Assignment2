@@ -60,7 +60,7 @@ header{
   float: left;
   width: 350px;
   height: 85px;
-  background: url(images/blacklogo.png) no-repeat center;
+  background: url(images/blacklogo2.png) no-repeat center;
 }
 
 
@@ -284,7 +284,7 @@ position: absolute;
 #logo {
 
   margin:15px 0 20px -25px;
-  background: url(images/smallerlogo.png) no-repeat center;
+  background: url(images/smallerlogo2.png) no-repeat center;
 }
 
 #menu-icon{

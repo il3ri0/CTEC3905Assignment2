@@ -16,8 +16,14 @@ This website has been made for myself in order to show information about myself 
  CSS Validator
  Javascript Validator
 
-## Designs 
+## Designs
 
+[picture alt](images/design1.png"Home page")
+[picture alt](images/design2.png"Resume page")
+[picture alt](images/design3.png"Project page")
+[picture alt](images/design4.png"Contact page")
+[picture alt](images/mobiledesign.png"mobile designs")
+[picture alt](images/mobiledesign1.png"mobile designs 2")
 ## Development
 
 ### Switching Pages
