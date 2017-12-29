@@ -66,13 +66,14 @@ I used Git for version control.
 
 ### HTML Validator
 
-[HTML5 Validator](https://atom.io/)
+[HTML5 Validator](https://validator.w3.org/)
 ### CSS Validator
-[CSS Validator](https://atom.io/)
+[CSS Validator](https://jigsaw.w3.org/css-validator/)
 ### Javascript Validator
-[Javascript Validator](https://atom.io/)
 
-##Author
+Since there were no issue in the page of which the javaScript is used on validates that there are no errors.
+
+## Author
 
 Ileri Onawoga
 
